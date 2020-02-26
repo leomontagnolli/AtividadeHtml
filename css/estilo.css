@@ -285,3 +285,51 @@ section >article > img {
     position: relative;
     bottom: 190px;  
 }
+.menufooter {
+    display: flex;
+    height: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.menufooter > ul {
+    padding: 10px;
+    text-align: left;
+    margin: 30px;
+    margin-top: 90px;
+    line-height: 40px;
+}
+.menufooter > ul > a {
+    text-decoration: none;
+}
+.menufooter > ul > a:visited {
+    color: #1b1b1b;
+}
+.menufooter > ul > a:link {
+    color: #1b1b1b;
+}
+.menufooter > .menuprodut {
+    margin-left: 500px;
+}
+.menufooter > img {
+    margin: -80px 30px 60px 30px;
+}
+.menufooter > ul > h3 {
+    font-weight: bolder;
+
+}
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: #e7e5e5;
+    display: flex;
+}
+footer > a {
+    text-decoration: none;
+    margin: 35px;
+}
+footer >a:link {
+    color: #1b1b1b;
+}
+footer >a:visited {
+    color: #1b1b1b;
+}
